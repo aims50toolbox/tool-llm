@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  vector:
+    container_name: falcon-b7
+    image: aitoolbox/falcon-b7
+    build: 
+      context: ./service
+    ports:
+      - "12345:80"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
