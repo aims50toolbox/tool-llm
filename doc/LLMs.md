@@ -1,3 +1,15 @@
+# Table of contents
+
+- [Table of contents](#table-of-contents)
+- [Large Language Models](#large-language-models)
+  - [Implementation](#implementation)
+    - [Tokenization](#tokenization)
+    - [Decoding strategies](#decoding-strategies)
+    - [Models](#models)
+  - [Fine tuning of LLMs](#fine-tuning-of-llms)
+  - [Tool content](#tool-content)
+
+
 # Large Language Models
 
 A large language model, in the context of artificial intelligence and natural language processing, refers to a machine learning model that has been trained on a vast amount of text data to understand and generate human-like language. These models are typically designed to process and generate human language in a way that is contextually relevant and coherent.
