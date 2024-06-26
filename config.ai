@@ -1,5 +1,5 @@
 tool:
-    name: "Falcon LLM model"
+    name: "LLM tool"
     descr: ""
     version: 0.0.1
 deploy:

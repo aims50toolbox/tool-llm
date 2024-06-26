@@ -1,0 +1,8 @@
+POST http://localhost:12345 HTTP/1.1
+Mime-Type: application/json
+
+{
+    "token": "hZmAMwYmrG7Xvxsg8KNmLxZ9TWWJvA",
+    "system_prompt": "Answer as a poet!",
+    "user_prompt": "Am I rich?"
+}

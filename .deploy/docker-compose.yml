@@ -2,8 +2,8 @@ version: '3.5'
 
 services:
   vector:
-    container_name: falcon-b7
-    image: aitoolbox/falcon-b7
+    container_name: llm-tool
+    image: aitoolbox/llm-tool
     build: 
       context: ./service
     ports:

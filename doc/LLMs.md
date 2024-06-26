@@ -64,10 +64,11 @@ QUESTION: How old is John Smith?
 The context can be generated in variety of ways, see e.g. the [Context-Injection Tool](https://github.com/hollosigergely/prompt-ci).
 
 ## Tool content
-The tool contains a prepared Falcon-7B model, as a deployable service in the file `query.ipynb`. **Falcon-7B requires at least 16GB of GPU memory!** The inputs for the service:
+By default, the tool contains a prepared LLama 3 7B model, as a deployable service in the file `query.ipynb`. **LLama 3 7B requires at least 16GB of GPU memory!** The inputs for the service:
 
  * `token`: a predefined token for security reasons (string)
- * `prompt`: the input prompt (string)
+ * `system_prompt`: the system prompt (string)
+ * `user_prompt`: the user prompt
 
 The responses:
- * `resp`: the response of the Falcon-7B model (string)
+ * `resp`: the response of the LLM model (string)
